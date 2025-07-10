@@ -70,7 +70,7 @@
             <mxPoint x="709" y="118" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UBH_qTqhZ-R5FcuiifZy-1" value="SIDATIN&lt;br&gt;&lt;div&gt;&amp;nbsp;SERVICE&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="UBH_qTqhZ-R5FcuiifZy-1" value="SIMDATIN&lt;br&gt;&lt;div&gt;&amp;nbsp;SERVICE&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="520" y="137.5" width="100" height="55" as="geometry" />
         </mxCell>
         <mxCell id="UBH_qTqhZ-R5FcuiifZy-2" value="db_simdatin" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
