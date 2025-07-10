@@ -17,7 +17,7 @@
           <mxGeometry x="290" y="135" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FojmKU9Cf3mvvTWfMZ7u-6" value="SIMPEG SERVICE" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="510" y="80" width="100" height="55" as="geometry" />
+          <mxGeometry x="520" y="40" width="100" height="55" as="geometry" />
         </mxCell>
         <mxCell id="FojmKU9Cf3mvvTWfMZ7u-12" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="FojmKU9Cf3mvvTWfMZ7u-1" target="FojmKU9Cf3mvvTWfMZ7u-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -50,13 +50,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FojmKU9Cf3mvvTWfMZ7u-17" value="db_simpeg" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="699" y="80" width="71" height="55" as="geometry" />
+          <mxGeometry x="699" y="40" width="71" height="55" as="geometry" />
         </mxCell>
         <mxCell id="FojmKU9Cf3mvvTWfMZ7u-19" value="SIHAM&lt;div&gt;&amp;nbsp;SERVICE&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="510" y="195" width="100" height="55" as="geometry" />
+          <mxGeometry x="520" y="240" width="100" height="55" as="geometry" />
         </mxCell>
         <mxCell id="FojmKU9Cf3mvvTWfMZ7u-20" value="db_siham" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="700" y="195" width="70" height="55" as="geometry" />
+          <mxGeometry x="700" y="240" width="70" height="55" as="geometry" />
         </mxCell>
         <mxCell id="FojmKU9Cf3mvvTWfMZ7u-22" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="FojmKU9Cf3mvvTWfMZ7u-6" target="FojmKU9Cf3mvvTWfMZ7u-17" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -68,6 +68,18 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="620" y="118" as="sourcePoint" />
             <mxPoint x="709" y="118" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UBH_qTqhZ-R5FcuiifZy-1" value="SIDATIN&lt;br&gt;&lt;div&gt;&amp;nbsp;SERVICE&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="520" y="135" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="UBH_qTqhZ-R5FcuiifZy-2" value="db_simdatin" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="700" y="135" width="70" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="UBH_qTqhZ-R5FcuiifZy-4" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="UBH_qTqhZ-R5FcuiifZy-1" target="UBH_qTqhZ-R5FcuiifZy-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="78" as="sourcePoint" />
+            <mxPoint x="709" y="78" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
