@@ -5,15 +5,15 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="3OMwjzpLB7cQj-1kULPp-2" value="&lt;h2&gt;Server A&lt;br&gt;Public IP (x.x.x.x)&lt;/h2&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=50;" parent="1" vertex="1">
-          <mxGeometry x="399" y="-920" width="840" height="430" as="geometry">
+          <mxGeometry x="480" y="-930" width="560" height="310" as="geometry">
             <mxRectangle x="400" y="-510" width="130" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3OMwjzpLB7cQj-1kULPp-4" value="Ngix (Web Server)&lt;div&gt;(Reverse Proxy for API Gateway, handles SSL Termination, Load balancing if multiple)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="3OMwjzpLB7cQj-1kULPp-2" vertex="1">
-          <mxGeometry x="240" y="80" width="480" height="60" as="geometry" />
+          <mxGeometry x="40" y="70" width="480" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3OMwjzpLB7cQj-1kULPp-11" value="" style="swimlane;startSize=0;" parent="3OMwjzpLB7cQj-1kULPp-2" vertex="1">
-          <mxGeometry x="240" y="170" width="480" height="120" as="geometry" />
+          <mxGeometry x="40" y="150" width="480" height="120" as="geometry" />
         </mxCell>
         <mxCell id="3OMwjzpLB7cQj-1kULPp-10" value="API Gateway Container&lt;div&gt;(Express JS)&lt;/div&gt;&lt;div&gt;(Routes request to appropriate services on server B, handles auth, etc)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="3OMwjzpLB7cQj-1kULPp-11" vertex="1">
           <mxGeometry x="35" y="39" width="410" height="60" as="geometry" />
