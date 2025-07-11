@@ -22,15 +22,15 @@
           <mxGeometry x="195" y="1" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UlkETmmc-7L0bvYlxfBp-1" value="&lt;h2&gt;Server B&lt;br&gt;(Private IP: y.y.y.y)&lt;/h2&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=50;" vertex="1" parent="1">
-          <mxGeometry x="395" y="-530" width="730" height="480" as="geometry">
+          <mxGeometry x="425" y="-530" width="495" height="380" as="geometry">
             <mxRectangle x="400" y="-510" width="130" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="UlkETmmc-7L0bvYlxfBp-2" value="Ngix (Web Server)&lt;div&gt;(Reverse Proxy for internal services, route request from API Gateway to services)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UlkETmmc-7L0bvYlxfBp-1">
-          <mxGeometry x="140" y="70" width="450" height="60" as="geometry" />
+          <mxGeometry x="25" y="70" width="450" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UlkETmmc-7L0bvYlxfBp-3" value="" style="swimlane;startSize=0;" vertex="1" parent="UlkETmmc-7L0bvYlxfBp-1">
-          <mxGeometry x="140" y="160" width="450" height="250" as="geometry" />
+          <mxGeometry x="25" y="152" width="450" height="208" as="geometry" />
         </mxCell>
         <mxCell id="UlkETmmc-7L0bvYlxfBp-4" value="Service 1 Container&lt;div&gt;(Laravel)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UlkETmmc-7L0bvYlxfBp-3">
           <mxGeometry x="15" y="39" width="120" height="51" as="geometry" />
@@ -52,6 +52,24 @@
         </mxCell>
         <mxCell id="UlkETmmc-7L0bvYlxfBp-15" value="MySQL" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="UlkETmmc-7L0bvYlxfBp-3">
           <mxGeometry x="317.5" y="130" width="75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UlkETmmc-7L0bvYlxfBp-17" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="UlkETmmc-7L0bvYlxfBp-3" source="UlkETmmc-7L0bvYlxfBp-4" target="UlkETmmc-7L0bvYlxfBp-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="38" as="sourcePoint" />
+            <mxPoint x="280" y="-12" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UlkETmmc-7L0bvYlxfBp-18" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="UlkETmmc-7L0bvYlxfBp-3" source="UlkETmmc-7L0bvYlxfBp-6" target="UlkETmmc-7L0bvYlxfBp-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="85" y="100" as="sourcePoint" />
+            <mxPoint x="85" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UlkETmmc-7L0bvYlxfBp-19" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="UlkETmmc-7L0bvYlxfBp-3" source="UlkETmmc-7L0bvYlxfBp-7" target="UlkETmmc-7L0bvYlxfBp-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="225" y="100" as="sourcePoint" />
+            <mxPoint x="225" y="140" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
