@@ -22,27 +22,27 @@
           <mxGeometry x="195" y="1" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UlkETmmc-7L0bvYlxfBp-1" value="&lt;h2&gt;Server B&lt;br&gt;(Private IP: y.y.y.y)&lt;/h2&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=50;" vertex="1" parent="1">
-          <mxGeometry x="395" y="-530" width="730" height="310" as="geometry">
+          <mxGeometry x="395" y="-530" width="730" height="480" as="geometry">
             <mxRectangle x="400" y="-510" width="130" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="UlkETmmc-7L0bvYlxfBp-2" value="Ngix (Web Server)&lt;div&gt;(Reverse Proxy for internal services, route request from API Gateway to services)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UlkETmmc-7L0bvYlxfBp-1">
-          <mxGeometry x="190" y="70" width="402.5" height="60" as="geometry" />
+          <mxGeometry x="163.75" y="70" width="402.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UlkETmmc-7L0bvYlxfBp-3" value="" style="swimlane;startSize=0;" vertex="1" parent="UlkETmmc-7L0bvYlxfBp-1">
-          <mxGeometry x="150" y="160" width="495" height="120" as="geometry" />
+          <mxGeometry x="150" y="160" width="430" height="250" as="geometry" />
         </mxCell>
         <mxCell id="UlkETmmc-7L0bvYlxfBp-4" value="Service 1 Container&lt;div&gt;(Laravel)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UlkETmmc-7L0bvYlxfBp-3">
-          <mxGeometry x="80" y="39" width="120" height="60" as="geometry" />
+          <mxGeometry x="15" y="39" width="120" height="51" as="geometry" />
         </mxCell>
         <mxCell id="UlkETmmc-7L0bvYlxfBp-5" value="Docker Host" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="UlkETmmc-7L0bvYlxfBp-3">
-          <mxGeometry x="230" width="90" height="30" as="geometry" />
+          <mxGeometry x="170" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UlkETmmc-7L0bvYlxfBp-6" value="Service 2 Container&lt;div&gt;(Express)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UlkETmmc-7L0bvYlxfBp-3">
-          <mxGeometry x="220" y="39" width="120" height="60" as="geometry" />
+          <mxGeometry x="155" y="39" width="120" height="51" as="geometry" />
         </mxCell>
         <mxCell id="UlkETmmc-7L0bvYlxfBp-7" value="Service 2 Container&lt;div&gt;(Django)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UlkETmmc-7L0bvYlxfBp-3">
-          <mxGeometry x="360" y="39" width="120" height="60" as="geometry" />
+          <mxGeometry x="295" y="39" width="120" height="51" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
