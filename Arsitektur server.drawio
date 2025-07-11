@@ -27,10 +27,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="UlkETmmc-7L0bvYlxfBp-2" value="Ngix (Web Server)&lt;div&gt;(Reverse Proxy for internal services, route request from API Gateway to services)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UlkETmmc-7L0bvYlxfBp-1">
-          <mxGeometry x="163.75" y="70" width="402.5" height="60" as="geometry" />
+          <mxGeometry x="140" y="70" width="450" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UlkETmmc-7L0bvYlxfBp-3" value="" style="swimlane;startSize=0;" vertex="1" parent="UlkETmmc-7L0bvYlxfBp-1">
-          <mxGeometry x="150" y="160" width="430" height="250" as="geometry" />
+          <mxGeometry x="140" y="160" width="450" height="250" as="geometry" />
         </mxCell>
         <mxCell id="UlkETmmc-7L0bvYlxfBp-4" value="Service 1 Container&lt;div&gt;(Laravel)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UlkETmmc-7L0bvYlxfBp-3">
           <mxGeometry x="15" y="39" width="120" height="51" as="geometry" />
@@ -43,6 +43,15 @@
         </mxCell>
         <mxCell id="UlkETmmc-7L0bvYlxfBp-7" value="Service 3 Container&lt;div&gt;(Django)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UlkETmmc-7L0bvYlxfBp-3">
           <mxGeometry x="295" y="39" width="120" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="UlkETmmc-7L0bvYlxfBp-13" value="PostgreSQL" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="UlkETmmc-7L0bvYlxfBp-3">
+          <mxGeometry x="37.5" y="130" width="75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UlkETmmc-7L0bvYlxfBp-14" value="MariaDB" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="UlkETmmc-7L0bvYlxfBp-3">
+          <mxGeometry x="177.5" y="130" width="75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UlkETmmc-7L0bvYlxfBp-15" value="MySQL" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="UlkETmmc-7L0bvYlxfBp-3">
+          <mxGeometry x="317.5" y="130" width="75" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
