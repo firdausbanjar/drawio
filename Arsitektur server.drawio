@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="3OMwjzpLB7cQj-1kULPp-2" value="&lt;h2&gt;Server A&lt;br&gt;(Public IP: x.x.x.x)&lt;/h2&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=50;" parent="1" vertex="1">
-          <mxGeometry x="510" y="-930" width="520" height="490" as="geometry">
+          <mxGeometry x="510" y="-930" width="520" height="330" as="geometry">
             <mxRectangle x="400" y="-510" width="130" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -13,7 +13,7 @@
           <mxGeometry x="20" y="70" width="480" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3OMwjzpLB7cQj-1kULPp-11" value="" style="swimlane;startSize=0;" parent="3OMwjzpLB7cQj-1kULPp-2" vertex="1">
-          <mxGeometry x="20" y="198" width="480" height="120" as="geometry" />
+          <mxGeometry x="20" y="190" width="480" height="120" as="geometry" />
         </mxCell>
         <mxCell id="3OMwjzpLB7cQj-1kULPp-10" value="API Gateway Container&lt;div&gt;(Express JS)&lt;/div&gt;&lt;div&gt;(Routes request to appropriate services on server B, handles auth, etc)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="3OMwjzpLB7cQj-1kULPp-11" vertex="1">
           <mxGeometry x="20" y="39" width="440" height="60" as="geometry" />
@@ -22,7 +22,7 @@
           <mxGeometry x="195" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UlkETmmc-7L0bvYlxfBp-24" value="HTTPS / HTTP" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3OMwjzpLB7cQj-1kULPp-2">
-          <mxGeometry x="215" y="150" width="90" height="30" as="geometry" />
+          <mxGeometry x="215" y="150" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="UlkETmmc-7L0bvYlxfBp-25" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" source="UlkETmmc-7L0bvYlxfBp-24" parent="3OMwjzpLB7cQj-1kULPp-2" target="3OMwjzpLB7cQj-1kULPp-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
