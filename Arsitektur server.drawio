@@ -1,25 +1,25 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.1">
   <diagram name="Page-1" id="WXPvGVMjKcDE35FTdCNQ">
-    <mxGraphModel dx="1603" dy="1983" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="744" dy="1510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="3OMwjzpLB7cQj-1kULPp-2" value="&lt;h2&gt;Server A&lt;br&gt;Public IP (x.x.x.x)&lt;/h2&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=50;" vertex="1" parent="1">
-          <mxGeometry x="431" y="-980" width="840" height="430" as="geometry">
+        <mxCell id="3OMwjzpLB7cQj-1kULPp-2" value="&lt;h2&gt;Server A&lt;br&gt;Public IP (x.x.x.x)&lt;/h2&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=50;" parent="1" vertex="1">
+          <mxGeometry x="399" y="-920" width="840" height="430" as="geometry">
             <mxRectangle x="400" y="-510" width="130" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3OMwjzpLB7cQj-1kULPp-4" value="Ngix (Web Server)&lt;div&gt;(Reverse Proxy for API Gateway, handles SSL Termination, Load balancing if multiple)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3OMwjzpLB7cQj-1kULPp-2">
-          <mxGeometry x="150" y="80" width="570" height="60" as="geometry" />
+        <mxCell id="3OMwjzpLB7cQj-1kULPp-4" value="Ngix (Web Server)&lt;div&gt;(Reverse Proxy for API Gateway, handles SSL Termination, Load balancing if multiple)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="3OMwjzpLB7cQj-1kULPp-2" vertex="1">
+          <mxGeometry x="240" y="80" width="480" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3OMwjzpLB7cQj-1kULPp-11" value="" style="swimlane;startSize=0;" vertex="1" parent="3OMwjzpLB7cQj-1kULPp-2">
-          <mxGeometry x="220" y="160" width="370" height="200" as="geometry" />
+        <mxCell id="3OMwjzpLB7cQj-1kULPp-11" value="" style="swimlane;startSize=0;" parent="3OMwjzpLB7cQj-1kULPp-2" vertex="1">
+          <mxGeometry x="240" y="170" width="480" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="3OMwjzpLB7cQj-1kULPp-10" value="API Gateway Container&lt;div&gt;(Express JS)&lt;/div&gt;&lt;div&gt;(Routes request to appropriate services on server B, handles auth, etc)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3OMwjzpLB7cQj-1kULPp-11">
-          <mxGeometry x="40" y="120" width="120" height="60" as="geometry" />
+        <mxCell id="3OMwjzpLB7cQj-1kULPp-10" value="API Gateway Container&lt;div&gt;(Express JS)&lt;/div&gt;&lt;div&gt;(Routes request to appropriate services on server B, handles auth, etc)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="3OMwjzpLB7cQj-1kULPp-11" vertex="1">
+          <mxGeometry x="35" y="39" width="410" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3OMwjzpLB7cQj-1kULPp-12" value="Docker Host" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="3OMwjzpLB7cQj-1kULPp-11">
-          <mxGeometry x="55" width="90" height="30" as="geometry" />
+        <mxCell id="3OMwjzpLB7cQj-1kULPp-12" value="Docker Host" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="3OMwjzpLB7cQj-1kULPp-11" vertex="1">
+          <mxGeometry x="195" y="1" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
