@@ -41,7 +41,7 @@
         <mxCell id="UlkETmmc-7L0bvYlxfBp-6" value="Service 2 Container&lt;div&gt;(Express)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UlkETmmc-7L0bvYlxfBp-3">
           <mxGeometry x="155" y="39" width="120" height="51" as="geometry" />
         </mxCell>
-        <mxCell id="UlkETmmc-7L0bvYlxfBp-7" value="Service 2 Container&lt;div&gt;(Django)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UlkETmmc-7L0bvYlxfBp-3">
+        <mxCell id="UlkETmmc-7L0bvYlxfBp-7" value="Service 3 Container&lt;div&gt;(Django)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UlkETmmc-7L0bvYlxfBp-3">
           <mxGeometry x="295" y="39" width="120" height="51" as="geometry" />
         </mxCell>
       </root>
